@@ -1,0 +1,111 @@
+/* =========================
+   STYLE GÉNÉRAL
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #f4f4f4);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* =========================
+   CONTENEUR PRINCIPAL
+========================= */
+.container {
+    width: 550px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   TITRE
+========================= */
+h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* =========================
+   CARTE COMMANDE
+========================= */
+.commande {
+    background: #fafafa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    text-align: left;
+    border-left: 6px solid #4CAF50;
+    transition: 0.3s ease;
+}
+
+.commande:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+.commande strong {
+    color: #222;
+}
+
+/* =========================
+   BOUTONS
+========================= */
+button {
+    padding: 7px 12px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+/* Bouton Modifier */
+button:first-of-type {
+    background-color: #2196F3;
+    color: white;
+}
+
+button:first-of-type:hover {
+    background-color: #1976D2;
+}
+
+/* Bouton Supprimer */
+button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
+
+button:last-of-type:hover {
+    background-color: #d32f2f;
+}
+
+/* =========================
+   BOUTON RETOUR
+========================= */
+.btn-retour {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-retour:hover {
+    background-color: #333;
+}
+
+/* =========================
+   MESSAGE AUCUNE COMMANDE
+========================= */
+#listeCommandes {
+    font-size: 15px;
+    color: #555;
+}

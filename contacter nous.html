@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Restaurant</title>
+    <link rel="stylesheet" href="contacter nous.css">
+</head>
+<body>
+
+<DIV CLASS="container">
+    <h2>Formulaire de contact</h2>
+
+    Nom :
+    <input type="text" id="nom">
+    <br><br>
+
+    Email :
+    <input type="email" id="email">
+    <br><br>
+
+    Téléphone :
+    <input type="text" id="telephone">
+    <br><br>
+
+    Sujet :
+    <select id="sujet">
+        <option value="Réservation">Réservation</option>
+        <option value="Commande">Commande</option>
+        <option value="Information">Information</option>
+    </select>
+    <br><br>
+
+    Message :
+    <textarea id="message"></textarea>
+    <br><br>
+
+    <input type="button" value="Envoyer" onclick="envoyer()">
+
+    <p id="resultat"></p>
+
+    <hr>
+
+    <p><strong>Email du restaurant :</strong> restaurant@gmail.com</p>
+    <p><strong>Téléphone :</strong> 06 12 34 56 78</p>
+
+</DIV>
+
+<script src="contacter nous.js"></script>
+
+</body>
+</html>

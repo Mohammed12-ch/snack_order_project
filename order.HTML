@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de livraison</title>
+       <link rel="stylesheet" href="order.CSS">
+</head>
+<body>
+<DIV CLASS="container">
+<h2>Formulaire de commande</h2>
+
+Nom du client : 
+<input type="text" id="nom">
+<br><br>
+
+Adresse : 
+<input type="text" id="adresse">
+<br><br>
+
+Produit : 
+<select id="produit" onchange="updatePrix()">
+    <option value="Sushi">Sushi</option>
+    <option value="Pizza">Pizza</option>
+    <option value="Burger">Burger</option>
+</select>
+<br><br>
+
+Prix unitaire : 
+<div id="prix-container"><span id="prix">0</span> DH</div>
+<br><br>
+
+Quantité : 
+<input type="number" id="qte">
+<br><br>
+
+<input type="button" value="Valider la livraison" onclick="livrer()">
+
+<p id="resultat"></p>
+
+
+
+</DIV>
+<script src="order.JS"></script>
+
+</body>
+</html>

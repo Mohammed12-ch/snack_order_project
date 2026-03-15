@@ -1,0 +1,53 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial;
+}
+
+.container {
+    width: 400px;
+    background-color : white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 20px green(0, 0, 0, 0.1);
+   
+    
+}
+
+h2 {
+    text-align: center;
+    color: #c0392b;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 6px;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    height: 80px;
+}
+
+input[type="button"] {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20PX;
+}
+
+input[type="button"]:hover {
+    background-color: #a93226;
+}
+
+#resultat {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
